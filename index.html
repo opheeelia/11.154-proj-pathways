@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet"> -->
     <title>Policies & Pathways of Immigration</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
@@ -9,12 +13,68 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <!-- D3 -->
     <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- ScrollMagic-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 </head>
 <body>
+    <nav>
+        <a href="#main-viz" id="bjump">jump to bottom</a>
+    </nav>
     <main class="container">
-        <section>
-            <h1 class="display-1">Policies & Pathways of Immigration</h1>
-        </section>
+
+        <div class="intro">
+            <section>
+                <h3 class="display-1">Policies & Pathways of Immigration</h1>
+            </section>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="scrollytell">
+            <div class="row scroll-1">
+                <div class="side-col left col">
+                    <p>Some example text that will go on the side in order to explain the visualization </p>
+                </div>
+                <div class="main-col col-6">
+                    <div class="viz">
+
+                    </div>
+                </div>
+                <div class="side-col right col">
+                </div>
+            </div>
+
+            <div class="row scroll-2">
+                <div class="side-col left col">
+                </div>
+                <div class="main-col col-6">
+                    <div class="viz">
+
+                    </div>
+                </div>
+                <div class="side-col right col">
+                    <p>Some example text that will go on the side in order to explain the visualization </p>
+                </div>
+            </div>
+
+            <div class="row scroll-3">
+                <div class="side-col left col">
+                    <p>Some example text that will go on the side in order to explain the visualization </p>
+                </div>
+                <div class="main-col col-6">
+                    <div class="viz">
+
+                    </div>
+                </div>
+                <div class="side-col right col">
+                </div>
+            </div>
+        </div>
+
+        <div class="main-viz" id="main-viz">
+
+        </div>
+
     </main>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

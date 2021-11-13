@@ -1,10 +1,16 @@
-@font-face {
-	font-family: '';
-	src: url();
+:root{
+	--base: #f2e9d3;
+	--text: #3e442b;
+	--blue: #003869;
+	--red: #b60028;
+	--grey: #999999;
 }
 
 body {
-    font-family: '';
+	font-family: 'Merriweather', serif;
+	text-align: center; 
+	color: var(--text);
+	background-color: var(--base);
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -26,4 +32,71 @@ body {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     
+}
+
+a{
+	color: var(--text);
+	text-decoration: none;
+}
+
+a:hover{
+	color: var(--red);
+}
+
+#bjump{
+	background-color: var(--base);
+}
+
+nav{
+	text-align: right;
+	position: -webkit-sticky; /* Safari */
+	top: 0;
+	position: sticky;
+	padding: 1em 1em;
+}
+
+.intro{
+	margin: 5rem;
+}
+
+.h3{
+	font-weight: 700;
+	margin: 2em;
+}
+
+.side-col{
+	padding: 1rem;
+}
+
+.main-col{
+	padding: 1rem;
+}
+
+.left{
+	text-align: right;
+}
+
+.right{
+	text-align: left;
+}
+
+.viz{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+
+.scroll-1, .scroll-2, .scroll-3{
+	margin: 20em 1em;
+	opacity: 0;
+	transition: opacity 0.8s;
+	-webkit-transition: opacity 0.8s;
+}
+
+.active {
+	opacity:1;
+}
+
+.deactive {
+	opacity:0;
 }
