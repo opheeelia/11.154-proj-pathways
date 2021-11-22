@@ -13,8 +13,16 @@ body {
 	background-color: var(--base);
 }
 
+h1, h2, h3, h4, h5{
+	font-weight: 700;
+}
+
 g text{
 	font-family: 'Merriweather', serif !important;
+}
+
+img {
+	width: 5em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
