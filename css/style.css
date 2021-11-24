@@ -13,8 +13,16 @@ body {
 	background-color: var(--base);
 }
 
+h1, h2, h3, h4, h5{
+	font-weight: 700;
+}
+
 g text{
 	font-family: 'Merriweather', serif !important;
+}
+
+img {
+	width: 5em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -61,6 +69,7 @@ nav{
 	top: 0;
 	position: sticky;
 	padding: 1em 1em;
+	z-index: -1;
 }
 
 .intro{
@@ -100,10 +109,39 @@ nav{
 	-webkit-transition: opacity 0.8s;
 }
 
+#viz-1, #viz-2, #viz-3{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 1px;
+}
+
 .active {
 	opacity:1;
 }
 
 .deactive {
 	opacity:0;
+}
+
+.shown {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.tab{
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.tablinks{
+	background-color: #f1d592 ;
+	border-radius: 5px;
+	flex-grow: 0.5;
+}
+
+.tabcontent{
+	background-color: #f1d592;
 }
