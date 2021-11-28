@@ -100,7 +100,13 @@ function plotBarChart(remData, apprData) {
         .attr("font-size", "0.6em")
         .attr("fill", "black")
         .text(d => d.Year);
-};
+
+    // title
+    svg.append("text")
+        .attr("class", "title")
+        .text("Number of persons apprehended and removed 2000-2019")
+        .attr("transform", `translate(${margin.left}, ${margin.top/2})`);
+}
 
 function plotPoliticOverlay() {
     const svg = d3.select("#viz-enf")
@@ -113,7 +119,7 @@ function plotPoliticOverlay() {
     { president: "Trump", start: 2017, end: 2019 }
     ];
 
-    const xValues = Array.from({length: 19}, (_, i) => i + 2000);
+    const xValues = Array.from({ length: 19 }, (_, i) => i + 2000);
     const x = d3.scaleLinear()
         .domain([d3.min(xValues), d3.max(xValues)])
         .range([0, width]);
@@ -125,9 +131,9 @@ function plotPoliticOverlay() {
         .data(pTerms)
         .enter()
         .append("rect")
-        .attr("x", d => x(d.start-0.5))
+        .attr("x", d => x(d.start - 0.5))
         .attr("y", 0)
-        .attr("width", d =>  x(d.end - 0.5) - x(d.start - 0.5))
+        .attr("width", d => x(d.end - 0.5) - x(d.start - 0.5))
         .attr("height", height)
         .attr("fill", (d, i) => i % 2 == 0 ? "#999999" : "#000000")
         .attr("opacity", 0.1)
