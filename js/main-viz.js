@@ -59,7 +59,8 @@ function plotBarChart(remData, apprData) {
                 .style("left", event.pageX + "px")
                 .style("top", event.pageY + "px")
                 .select("#value")
-                .html(`<p> ${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended </p>`); // access data by object property
+                .html(`<p> ${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended <br>
+                     ${remData.find(x => x.Year == d.Year).Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} removed </p>`);
 
             d3.select("#tooltip")
                 .classed("hidden", false);
