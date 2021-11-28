@@ -105,12 +105,12 @@ function plotBarChart(remData, apprData) {
     svg.append("text")
         .attr("class", "title")
         .text("Number of persons apprehended and removed 2000-2019")
-        .attr("transform", `translate(${margin.left}, ${margin.top/2})`);
+        .attr("transform", `translate(${margin.left}, ${margin.top / 2})`);
 }
 
 function plotPoliticOverlay() {
     const svg = d3.select("#viz-enf")
-        .append("svg")
+        .select("svg")
         .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
 
     const pTerms = [{ president: "Clinton", start: 2000, end: 2001 },
@@ -155,12 +155,64 @@ function plotPoliticOverlay() {
 
 }
 
+// function plotContext(contextData) {
+//     const svg = d3.select("#viz-enf")
+//         .select("svg")
+//         .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
+
+//     const x = d3.scaleLinear()
+//         .domain([2000, 2019])
+//         .range([0, width]);
+
+//     svg.append("g")
+//         .attr("class", "pEvent")
+//         .attr("transform", `translate(${margin.left}, ${margin.top})`)
+//         .selectAll("rect")
+//         .data(contextData)
+//         .enter()
+//         .append("rect")
+//         .attr("x", d => x(d.Year))
+//         .attr("y", 0)
+//         .attr("width", 5)
+//         .attr("height", height)
+//         .attr("fill", "#b60028")
+//         .attr("opacity", 0.3)
+//         .on("mouseover", function (event, d) {
+//             // d3.select("#tooltip")
+//             //     .style("left", event.pageX + "px")
+//             //     .style("top", event.pageY + "px")
+//             //     .select("#value")
+//             //     .html(`${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended <br>
+//             //          ${remData.find(x => x.Year == d.Year).Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} removed`);
+
+//             // d3.select("#tooltip")
+//             //     .classed("hidden", false);
+//         })
+//         .on("mouseout", function () {
+//             // d3.select("#tooltip")
+//             //     .classed("hidden", true);
+//         });
+
+// }
+
+const svg = d3.select("#viz-enf")
+    .append("svg")
+    .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
+
 // load csv data
+plotPoliticOverlay();
+
+// d3.csv("./data/context.csv", d3.autoType)
+//     .then(function (contextData) {
+//         plotContext(contextData);
+//     });
+
+
 d3.csv("./data/removed.csv", d3.autoType)
     .then(function (remData) {
         d3.csv("./data/apprehended.csv", d3.autoType)
             .then(function (apprData) {
-                plotPoliticOverlay();
                 plotBarChart(remData.filter(d => d.Country == "Total"), apprData.filter(d => d.Country == "Total"));
             })
-    })
+    });
+

@@ -1,0 +1,551 @@
+,Year,Disaster Type,Event Name,Country,Total Affected
+0,2000,Storm,Keith,Belize,62570.0
+1,2000,Flood,,Guatemala,462.0
+2,2000,Flood,,Mexico,
+3,2000,Drought,,Honduras,1125.0
+4,2000,Drought,,Nicaragua,
+5,2000,Landslide,,Costa Rica,200.0
+6,2000,Transport accident,Cessna Caravan,Costa Rica,
+7,2000,Miscellaneous accident,Maison de retraite,Costa Rica,
+8,2000,Volcanic activity,Pacaya,Guatemala,800.0
+9,2000,Flood,,Guatemala,2524.0
+10,2000,Transport accident,,Guatemala,45.0
+11,2000,Transport accident,,Guatemala,50.0
+12,2000,Wildfire,,Honduras,
+13,2000,Transport accident,,Honduras,60.0
+14,2000,Storm,Norman,Mexico,300.0
+15,2000,Earthquake,,Mexico,1.0
+16,2000,Volcanic activity,Popocatépetl,Mexico,41000.0
+17,2000,Flood,,Mexico,
+18,2000,Storm,Keith,Mexico,30000.0
+19,2000,Extreme temperature,,Mexico,
+20,2000,Transport accident,Jet Stream J-32,Mexico,
+21,2000,Transport accident,,Mexico,
+22,2000,Transport accident,"Boat ""Azteca 10"" and boat ""Permata""",Mexico,
+23,2000,Transport accident,,Mexico,
+24,2000,Miscellaneous accident,Factory,Mexico,170.0
+25,2000,Miscellaneous accident,"Dicotheque ""Lobohombo""",Mexico,28.0
+26,2000,Flood,,Mexico,2000.0
+27,2000,Storm,,Nicaragua,210.0
+28,2000,Earthquake,,Nicaragua,7477.0
+29,2000,Flood,,Nicaragua,5500.0
+30,2000,Storm,Keith,Nicaragua,2300.0
+31,2001,Earthquake,,Guatemala,152.0
+32,2001,Transport accident,,Guatemala,20.0
+33,2001,Transport accident,,Guatemala,32.0
+34,2000,Transport accident,Aeroperlas aircraft,Panama,
+35,2000,Transport accident,"Minesweeper ""Valiente"" and cargo ""Skyros""",Panama,
+36,2000,Flood,,Panama,1000.0
+37,2000,Flood,,El Salvador,400.0
+38,2000,Storm,Keith,El Salvador,100.0
+39,2000,Epidemic,Dengue,El Salvador,211.0
+40,2000,Miscellaneous accident,Military police ammunition dump,El Salvador,41.0
+41,2001,Earthquake,,El Salvador,1334529.0
+42,2001,Earthquake,,El Salvador,256021.0
+43,2001,Storm,Iris,Belize,20000.0
+44,2001,Storm,Chantal,Belize,
+45,2001,Drought,,Honduras,195000.0
+46,2001,Drought,,Guatemala,113596.0
+47,2001,Flood,,Costa Rica,1437.0
+48,2001,Storm,Iris,Guatemala,6446.0
+49,2001,Extreme temperature,,Guatemala,1850.0
+50,2001,Transport accident,,Guatemala,20.0
+51,2001,Storm,Michelle,Honduras,86321.0
+52,2001,Flood,,Mexico,
+53,2001,Storm,Dalila,Mexico,100.0
+54,2001,Storm,Juliette,Mexico,3800.0
+55,2001,Storm,Iris,Mexico,
+56,2001,Storm,Lorena,Mexico,
+57,2001,Storm,Chantal,Mexico,2500.0
+58,2001,Transport accident,LET 410,Mexico,
+59,2002,Flood,,Costa Rica,20000.0
+60,2002,Flood,,Costa Rica,75040.0
+61,2002,Volcanic activity,de Fuego,Guatemala,
+62,2002,Flood,,Guatemala,98740.0
+63,2002,Storm,Isidore,Guatemala,1500.0
+64,2002,Epidemic,Dengue,Guatemala,2042.0
+65,2002,Transport accident,,Guatemala,3.0
+66,2002,Transport accident,,Guatemala,3.0
+67,2002,Landslide,,Guatemala,474.0
+68,2002,Flood,,Honduras,1720.0
+69,2002,Flood,,Honduras,969.0
+70,2002,Epidemic,Dengue fever,Honduras,4530.0
+71,2002,Drought,,Honduras,82000.0
+72,2002,Flood,,Honduras,
+73,2002,Volcanic activity,Colima,Mexico,300.0
+74,2002,Flood,,Mexico,7000.0
+75,2002,Flood,,Mexico,
+76,2002,Storm,Isidore,Mexico,500030.0
+77,2002,Storm,Julio,Mexico,500.0
+78,2002,Storm,Kenna,Mexico,9000.0
+79,2002,Extreme temperature,,Mexico,
+80,2002,Transport accident,,Mexico,20.0
+81,2002,Transport accident,,Mexico,7.0
+82,2002,Transport accident,,Mexico,19.0
+83,2002,Miscellaneous accident,Fireworks,Mexico,41.0
+84,2002,Industrial accident,"Coal mine ""La Espuelita""",Mexico,
+85,2002,Drought,,Mexico,
+86,2003,Earthquake,,Mexico,178603.0
+87,2001,Drought,,Nicaragua,188000.0
+88,2001,Storm,Michelle,Nicaragua,24866.0
+89,2001,Flood,,Panama,775.0
+90,2001,Flood,,El Salvador,1000.0
+91,2001,Drought,,El Salvador,400000.0
+92,2002,Flood,,Nicaragua,13546.0
+93,2002,Storm,Isidore,Nicaragua,300.0
+94,2002,Wildfire,,Nicaragua,16000.0
+95,2002,Flood,,Panama,11500.0
+96,2002,Flood,,Panama,15000.0
+97,2002,Epidemic,Viral meningitis,Panama,173.0
+98,2002,Complex Disasters,,Panama,3000.0
+99,2002,Flood,,El Salvador,100.0
+100,2002,Storm,Isidore,El Salvador,500.0
+101,2002,Epidemic,Dengue,El Salvador,2399.0
+102,2002,Transport accident,,El Salvador,30.0
+103,2003,Earthquake,,Costa Rica,135.0
+104,2003,Flood,,Costa Rica,2500.0
+105,2003,Landslide,,Guatemala,220.0
+106,2003,Wildfire,,Guatemala,
+107,2003,Flood,,Honduras,3000.0
+108,2003,Miscellaneous accident,Prison,Honduras,70.0
+109,2003,Flood,,Honduras,105.0
+110,2004,Flood,,Costa Rica,2056.0
+111,2004,Earthquake,,Costa Rica,280.0
+112,2004,Flood,,Costa Rica,1000.0
+113,2004,Drought,,Honduras,137500.0
+114,2004,Transport accident,,Guatemala,30.0
+115,2004,Transport accident,,Guatemala,35.0
+116,2004,Transport accident,,Guatemala,14.0
+117,2004,Miscellaneous accident,Prison,Honduras,25.0
+118,2004,Miscellaneous accident,,Honduras,5.0
+119,2005,Flood,,Costa Rica,2143.0
+120,2003,Flood,,Mexico,3050.0
+121,2003,Flood,,Panama,1000.0
+122,2003,Storm,Marty,Mexico,6000.0
+123,2003,Storm,Ignacio,Mexico,3000.0
+124,2003,Flood,,Mexico,50000.0
+125,2003,Flood,,Mexico,800.0
+126,2003,Landslide,,Mexico,200.0
+127,2003,Extreme temperature,,Mexico,
+128,2003,Wildfire,,Mexico,
+129,2003,Transport accident,,Mexico,20.0
+130,2003,Earthquake,,Panama,340.0
+131,2003,Earthquake,,Panama,1075.0
+132,2003,Epidemic,Pneumonia,El Salvador,50000.0
+133,2004,Flood,,Panama,11650.0
+134,2004,Flood,,Mexico,3740.0
+135,2004,Storm,,Nicaragua,200.0
+136,2004,Flood,,Mexico,350.0
+137,2004,Extreme temperature,,Mexico,
+138,2004,Landslide,,Nicaragua,5769.0
+139,2004,Flood,,Panama,3400.0
+140,2004,Flood,,Panama,7698.0
+141,2004,Transport accident,,El Salvador,24.0
+142,2004,Miscellaneous accident,Riots in prison,El Salvador,28.0
+143,2005,Flood,,Panama,7000.0
+144,2005,Transport accident,,Mexico,13.0
+145,2005,Transport accident,,Mexico,15.0
+146,2005,Storm,Gamma,Honduras,90000.0
+147,2005,Storm,Stan,Guatemala,475314.0
+148,2005,Flood,,Costa Rica,855.0
+149,2005,Flood,,Honduras,800.0
+150,2005,Storm,Stan,Honduras,2869.0
+151,2005,Storm,Beta,Honduras,11000.0
+152,2005,Storm,"Hurricane ""Wilma""",Belize,
+153,2005,Storm,Gamma,Belize,
+154,2005,Storm,Stan,Costa Rica,1074.0
+155,2005,Miscellaneous accident,"Hospital ""Rafael Angel Calderon Guardia""",Costa Rica,
+156,2005,Flood,,Guatemala,
+157,2005,Landslide,,Guatemala,1535.0
+158,2005,Landslide,,Guatemala,1000.0
+159,2005,Storm,"Hurricane ""Wilma""",Honduras,
+160,2005,Miscellaneous accident,Poisoning,Honduras,200.0
+161,2005,Miscellaneous accident,Food poisoning,Honduras,150.0
+162,2006,Extreme temperature,,Guatemala,
+163,2006,Transport accident,,Guatemala,5.0
+164,2006,Transport accident,,Guatemala,40.0
+165,2006,Miscellaneous accident,Open market,Guatemala,4.0
+166,2006,Flood,,Honduras,1500.0
+167,2005,Flood,,Mexico,10000.0
+168,2005,Earthquake,,El Salvador,751.0
+169,2005,Flood,,El Salvador,2332.0
+170,2005,Flood,,El Salvador,
+171,2005,Storm,Stan,El Salvador,72141.0
+172,2005,Storm,Stan,Mexico,1954571.0
+173,2005,Storm,"Hurricane ""Wilma""",Mexico,1000000.0
+174,2005,Flood,,Mexico,1000.0
+175,2005,Storm,Beta,Nicaragua,5763.0
+176,2005,Storm,Bret,Mexico,15000.0
+177,2005,Storm,Stan,Nicaragua,7880.0
+178,2005,Flood,,Mexico,3000.0
+179,2005,Storm,Emily,Mexico,
+180,2005,Miscellaneous accident,Fireworks market,Mexico,104.0
+181,2005,Complex Disasters,,Nicaragua,12500.0
+182,2005,Volcanic activity,Santa Ana (Ilamatepec),El Salvador,2000.0
+183,2005,Storm,Adrian,El Salvador,
+184,2006,Storm,John,Mexico,10000.0
+185,2006,Storm,Lane,Mexico,240700.0
+186,2006,Flood,,Panama,4530.0
+187,2006,Flood,,Panama,1900.0
+188,2006,Storm,Paul,Mexico,20000.0
+189,2006,Flood,,Mexico,
+190,2006,Landslide,,Mexico,
+191,2006,Landslide,,Mexico,
+192,2006,Extreme temperature,,Mexico,
+193,2006,Transport accident,,Mexico,3.0
+194,2006,Transport accident,,Mexico,
+195,2006,Transport accident,,Mexico,9.0
+196,2006,Industrial accident,Mine,Mexico,8.0
+197,2006,Industrial accident,Methanol,Nicaragua,800.0
+198,2006,Transport accident,,Panama,18.0
+199,2006,Wildfire,,Panama,1436.0
+200,2006,Earthquake,,El Salvador,16470.0
+201,2006,Extreme temperature,,El Salvador,
+202,2007,Transport accident,,Mexico,25.0
+203,2007,Miscellaneous accident,,Panama,725.0
+204,2007,Storm,Felix,Guatemala,3905.0
+205,2007,Storm,Felix,Honduras,19500.0
+206,2007,Flood,,Costa Rica,12000.0
+207,2007,Flood,,Guatemala,656.0
+208,2007,Storm,Dean,Belize,20000.0
+209,2007,Flood,,Costa Rica,12500.0
+210,2007,Flood,,Guatemala,1440.0
+211,2007,Earthquake,,Honduras,1883.0
+212,2007,Flood,,Honduras,15000.0
+213,2007,Flood,,Honduras,500.0
+214,2008,Flood,,Guatemala,17300.0
+215,2008,Storm,Hurricane Dolly,Guatemala,
+216,2008,Storm,Alma,Costa Rica,55000.0
+217,2008,Flood,,Costa Rica,9498.0
+218,2008,Flood,Tropical Depression Sixteen,Costa Rica,92000.0
+219,2008,Flood,,Costa Rica,53000.0
+220,2008,Flood,Tropical Depression Sixteen,Guatemala,180000.0
+221,2008,Flood,Tropical Depression Sixteen,Honduras,313357.0
+222,2008,Storm,Arthur,Belize,10000.0
+223,2008,Flood,Tropical Depression Sixteen,Belize,38000.0
+224,2008,Landslide,,Guatemala,
+225,2008,Transport accident,,Guatemala,25.0
+226,2008,Transport accident,,Guatemala,4.0
+227,2008,Storm,Alma,Honduras,
+228,2008,Transport accident,,Honduras,18.0
+229,2009,Earthquake,,Costa Rica,128618.0
+230,2009,Earthquake,,Honduras,50136.0
+231,2009,Mass movement (dry),,Guatemala,3028.0
+232,2009,Flood,,Guatemala,10800.0
+233,2007,Flood,,Mexico,1600000.0
+234,2007,Storm,Lorenzo,Mexico,33000.0
+235,2007,Storm,Felix,Nicaragua,188726.0
+236,2007,Flood,,Nicaragua,24000.0
+237,2007,Landslide,,Mexico,
+238,2007,Storm,Dean,Mexico,140000.0
+239,2007,Storm,Felix,Mexico,30000.0
+240,2007,Storm,Felix,El Salvador,2800.0
+241,2007,Flood,,Mexico,55000.0
+242,2007,Storm,Henriette,Mexico,
+243,2007,Transport accident,,Mexico,
+244,2007,Transport accident,,Mexico,120.0
+245,2007,Transport accident,,Mexico,12.0
+246,2007,Transport accident,,Mexico,
+247,2007,Industrial accident,Oil plateform,Mexico,63.0
+248,2007,Flood,,Panama,129.0
+249,2007,Miscellaneous accident,Apartment sbuidlings,Panama,400.0
+250,2007,Flood,,El Salvador,500.0
+251,2008,Storm,Hurricane Dolly,Mexico,500000.0
+252,2008,Flood,,Nicaragua,3525.0
+253,2008,Flood,,Panama,23292.0
+254,2008,Flood,,El Salvador,
+255,2008,Flood,,Mexico,20000.0
+256,2008,Landslide,,Mexico,
+257,2008,Transport accident,Helicopter Bell-212,Mexico,
+258,2008,Transport accident,Bi-motor,Mexico,7.0
+259,2008,Transport accident,,Mexico,
+260,2008,Transport accident,,Mexico,28.0
+261,2008,Transport accident,,Mexico,
+262,2008,Transport accident,,Mexico,20.0
+263,2008,Transport accident,,Mexico,5.0
+264,2008,Miscellaneous accident,,Mexico,20.0
+265,2008,Flood,Tropical Depression Sixteen,Nicaragua,10663.0
+266,2008,Storm,Alma,Nicaragua,25000.0
+267,2008,Flood,,Panama,545.0
+268,2008,Transport accident,Helicopter,Panama,
+269,2008,Flood,Tropical Depression Sixteen,El Salvador,3000.0
+270,2008,Transport accident,,El Salvador,40.0
+271,2009,Transport accident,,Mexico,18.0
+272,2009,Transport accident,,Mexico,66.0
+273,2009,Industrial accident,Gas intoxication,Mexico,1.0
+274,2009,Miscellaneous accident,Nursery,Mexico,30.0
+275,2009,Drought,,Guatemala,2500000.0
+276,2009,Drought,,Honduras,45000.0
+277,2009,Epidemic,Dengue,Honduras,11771.0
+278,2010,Storm,Tropical storm Matthew,Guatemala,
+279,2010,Flood,,Costa Rica,106.0
+280,2010,Flood,,Costa Rica,3000.0
+281,2010,Flood,,Guatemala,3270.0
+282,2010,Storm,Hurricane Agatha,Guatemala,397962.0
+283,2010,Flood,,Honduras,1610.0
+284,2010,Storm,Tropical storm Matthew,Honduras,
+285,2010,Storm,Tropical storm Matthew,Belize,
+286,2010,Volcanic activity,Pacaya volcano,Guatemala,1800.0
+287,2010,Landslide,,Guatemala,50696.0
+288,2010,Storm,"Tropical storm ""Alex""",Guatemala,2180.0
+289,2010,Transport accident,,Guatemala,
+290,2010,Flood,,Honduras,3400.0
+291,2010,Storm,Hurricane Agatha,Honduras,24675.0
+292,2010,Epidemic,Dengue,Honduras,27000.0
+293,2011,Flood,,Guatemala,6075.0
+294,2011,Storm,"Tropical storm ""Dora""",Guatemala,
+295,2011,Transport accident,,Guatemala,50.0
+296,2011,Transport accident,Bimoteur Let 410,Honduras,
+297,2009,Storm,"Hurricane ""Ida""",El Salvador,90000.0
+298,2009,Storm,Hurricane Jimena,Mexico,72000.0
+299,2009,Flood,,Mexico,18000.0
+300,2009,Flood,,Nicaragua,64.0
+301,2009,Flood,,Panama,4248.0
+302,2009,Storm,"Hurricane ""Ida""",Nicaragua,19897.0
+303,2009,Flood,,Mexico,1500.0
+304,2009,Flood,,Mexico,107670.0
+305,2009,Flood,,Mexico,13014.0
+306,2009,Flood,,Mexico,
+307,2009,Storm,"Hurricane ""Ida""",Mexico,40000.0
+308,2009,Epidemic,Dengue,Mexico,41687.0
+309,2009,Flood,,Nicaragua,6821.0
+310,2009,Epidemic,Dengue,Nicaragua,2050.0
+311,2009,Transport accident,,Panama,10.0
+312,2009,Epidemic,Dengue,El Salvador,4598.0
+313,2009,Drought,,El Salvador,
+314,2010,Storm,Tropical storm Matthew,Mexico,1075.0
+315,2010,Storm,Hurricane Agatha,El Salvador,11520.0
+316,2010,Flood,,Mexico,20000.0
+317,2010,Storm,Hurricane Frank,Mexico,154000.0
+318,2010,Flood,,Mexico,1000000.0
+319,2010,Flood,,Panama,1035.0
+320,2010,Flood,,Panama,6296.0
+321,2010,Flood,,Panama,24610.0
+322,2010,Storm,"Tropical storm ""Alex""",El Salvador,500.0
+323,2010,Storm,"Tropical storm ""Alex""",Mexico,170000.0
+324,2010,Storm,Hurricane Karl,Mexico,230000.0
+325,2010,Earthquake,,Mexico,25232.0
+326,2010,Landslide,,Mexico,
+327,2010,Landslide,,Mexico,
+328,2010,Transport accident,Helicopter Bell 412,Mexico,
+329,2010,Transport accident,Helicopter,Mexico,
+330,2010,Transport accident,,Mexico,11.0
+331,2010,Transport accident,,Mexico,
+332,2010,Transport accident,,Mexico,
+333,2010,Transport accident,,Mexico,4.0
+334,2010,Industrial accident,Pipeline,Mexico,52.0
+335,2010,Flood,,Nicaragua,4860.0
+336,2010,Flood,,Nicaragua,71000.0
+337,2010,Storm,"Tropical storm ""Alex""",Nicaragua,
+338,2010,Storm,Tropical storm Matthew,Nicaragua,
+339,2010,Epidemic,Leptospirosis,Nicaragua,395.0
+340,2010,Flood,,Panama,1000.0
+341,2010,Storm,Tropical storm Matthew,El Salvador,
+342,2010,Miscellaneous accident,Prison,El Salvador,22.0
+343,2011,Storm,"Tropical storm ""Beatrix""",Mexico,450.0
+344,2011,Storm,"Tropical Storm ""Arlene""",Mexico,300000.0
+345,2011,Wildfire,,Mexico,
+346,2011,Storm,"Tropical storm ""Dora""",Mexico,200000.0
+347,2011,Extreme temperature,,Mexico,120000.0
+348,2011,Industrial accident,Coal mine,Mexico,
+349,2011,Miscellaneous accident,Prison,Mexico,
+350,2011,Flood,,Costa Rica,46695.0
+351,2011,Flood,,Guatemala,528753.0
+352,2011,Flood,,Honduras,69798.0
+353,2011,Earthquake,,Guatemala,400.0
+354,2011,Flood,,Guatemala,
+355,2011,Landslide,,Guatemala,
+356,2011,Extreme temperature,,Guatemala,2643.0
+357,2012,Flood,,Costa Rica,9523.0
+358,2012,Drought,,Guatemala,266485.0
+359,2012,Earthquake,,Costa Rica,762.0
+360,2012,Earthquake,,Guatemala,1321742.0
+361,2012,Volcanic activity,,Guatemala,10000.0
+362,2012,Drought,,Honduras,125000.0
+363,2012,Miscellaneous accident,Granja Penal de Comayagua Penitentiary,Honduras,596.0
+364,2012,Miscellaneous accident,Penitentiary,Honduras,
+365,2013,Epidemic,Dengue,Costa Rica,12000.0
+366,2013,Earthquake,,Guatemala,572.0
+367,2013,Epidemic,Dengue,Guatemala,1977.0
+368,2013,Transport accident,,Guatemala,40.0
+369,2013,Epidemic,Dengue,Honduras,34128.0
+370,2014,Flood,,Honduras,20000.0
+371,2011,Storm,Hurricane Jova,Mexico,50000.0
+372,2011,Flood,,Nicaragua,143018.0
+373,2011,Flood,,Panama,2000.0
+374,2011,Flood,,Panama,2000.0
+375,2011,Flood,,El Salvador,300000.0
+376,2011,Storm,Hurricane Nate,Mexico,
+377,2011,Earthquake,,Mexico,152.0
+378,2011,Flood,,Mexico,250000.0
+379,2011,Flood,,Mexico,190000.0
+380,2011,Flood,,Mexico,40000.0
+381,2011,Drought,,Mexico,2500000.0
+382,2012,Flood,,Panama,5118.0
+383,2012,Flood,,Panama,4330.0
+384,2012,Earthquake,,Mexico,49011.0
+385,2012,Storm,Ernesto,Mexico,
+386,2012,Storm,Hurricane Carlotta,Mexico,87000.0
+387,2012,Transport accident,,Mexico,20.0
+388,2012,Transport accident,,Mexico,22.0
+389,2012,Industrial accident,Gaz factory,Mexico,26.0
+390,2012,Flood,,Nicaragua,29500.0
+391,2013,Storm,Tropical storm Fernand,Mexico,5000.0
+392,2013,Storm,Hurricane Manuel,Mexico,105000.0
+393,2013,Storm,Hurricane Ingrid,Mexico,50000.0
+394,2013,Flood,,Mexico,
+395,2013,Storm,Hurricane Barbara,Mexico,12000.0
+396,2013,Transport accident,,Mexico,
+397,2013,Transport accident,,Mexico,14.0
+398,2013,Transport accident,,Mexico,25.0
+399,2013,Industrial accident,Oil company Pemex Building,Mexico,100.0
+400,2013,Miscellaneous accident,Fireworks,Mexico,80.0
+401,2013,Industrial accident,,Mexico,1540.0
+402,2013,Flood,,Nicaragua,14149.0
+403,2013,Epidemic,Dengue,Nicaragua,1310.0
+404,2013,Drought,,Panama,
+405,2013,Volcanic activity,Chaparrastique Volcano,El Salvador,63079.0
+406,2014,Storm,Boris,Guatemala,100000.0
+407,2014,Flood,,Guatemala,
+408,2014,Flood,,Honduras,3000.0
+409,2014,Drought,,Honduras,571710.0
+410,2014,Drought,,Costa Rica,
+411,2014,Earthquake,,Guatemala,94783.0
+412,2014,Extreme temperature,,Guatemala,8141.0
+413,2014,Drought,,Guatemala,1300000.0
+414,2014,Transport accident,,Honduras,42.0
+415,2015,Flood,,Costa Rica,9666.0
+416,2015,Flood,,Belize,20000.0
+417,2015,Volcanic activity,Turrialba,Costa Rica,18450.0
+418,2015,Flood,,Guatemala,56845.0
+419,2015,Landslide,,Guatemala,1112.0
+420,2015,Epidemic,Chikungunya,Guatemala,15211.0
+421,2015,Industrial accident,,Guatemala,12017.0
+422,2015,Flood,,Guatemala,8291.0
+423,2016,Storm,Tropical storm 'Earl',Belize,10355.0
+424,2016,Transport accident,,Costa Rica,245.0
+425,2016,Landslide,,Guatemala,46.0
+426,2016,Storm,Tropical storm 'Earl',Guatemala,55.0
+427,2016,Storm,Tropical storm 'Earl',Honduras,151.0
+428,2014,Storm,Boris,Mexico,
+429,2014,Storm,Hurricane Odile,Mexico,75135.0
+430,2014,Storm,Tropical storm Trudy,Mexico,30000.0
+431,2014,Flood,,Nicaragua,60345.0
+432,2014,Flood,,Panama,116.0
+433,2014,Storm,Tropical storm Dolly,Mexico,1500.0
+434,2014,Storm,Hurricane Marie,Mexico,30000.0
+435,2014,Storm,Hurricane Norbert,Mexico,7500.0
+436,2014,Earthquake,,Mexico,381.0
+437,2014,Earthquake,,Mexico,27000.0
+438,2014,Earthquake,,Nicaragua,12281.0
+439,2014,Transport accident,,Nicaragua,13.0
+440,2014,Drought,,Nicaragua,460000.0
+441,2014,Industrial accident,Chemical herbicide 'Atrazine',Panama,80743.0
+442,2014,Epidemic,Dengue,El Salvador,12783.0
+443,2014,Drought,,El Salvador,700000.0
+444,2015,Storm,,Mexico,1471.0
+445,2015,Storm,Hurricane Patricia,Mexico,15000.0
+446,2015,Storm,,Mexico,2320.0
+447,2015,Flood,,Mexico,3000.0
+448,2015,Transport accident,,Mexico,20.0
+449,2015,Transport accident,,Mexico,3.0
+450,2015,Transport accident,,Mexico,100.0
+451,2015,Transport accident,,Mexico,10.0
+452,2015,Transport accident,,Mexico,30.0
+453,2015,Transport accident,,Mexico,31.0
+454,2015,Flood,,Nicaragua,3750.0
+455,2015,Flood,,Panama,3500.0
+456,2015,Drought,,Panama,
+457,2015,Storm,,El Salvador,20000.0
+458,2015,Flood,,El Salvador,
+459,2016,Storm,Tropical storm 'Earl',Mexico,11000.0
+460,2016,Flood,,Mexico,6000.0
+461,2016,Storm,Hurricane Newton,Mexico,10500.0
+462,2016,Flood,,Mexico,3000.0
+463,2016,Transport accident,,Mexico,
+464,2016,Transport accident,,Mexico,28.0
+465,2016,Industrial accident,Petrochimical plant,Mexico,100.0
+466,2016,Flood,,Mexico,6000.0
+467,2016,Transport accident,Migrants,Nicaragua,21.0
+468,2016,Storm,Tropical storm Otto,Costa Rica,50000.0
+469,2017,Storm,Tropical depression'16/Hurricane 'Nate',Costa Rica,11500.0
+470,2017,Transport accident,Cessna 208 Caravan,Costa Rica,
+471,2017,Earthquake,,Guatemala,3601.0
+472,2017,Flood,,Guatemala,160.0
+473,2018,Flood,,Costa Rica,125190.0
+474,2018,Volcanic activity,Volcan de Fuego,Guatemala,1714414.0
+475,2018,Drought,,Costa Rica,
+476,2018,Flood,,Guatemala,76845.0
+477,2019,Epidemic,Dengue,Costa Rica,4852.0
+478,2016,Storm,Tropical storm Otto,Panama,12000.0
+479,2016,Flood,,Mexico,35000.0
+480,2016,Flood,,Honduras,500.0
+481,2016,Flood,,Honduras,450000.0
+482,2016,Flood,,Mexico,3000.0
+483,2016,Miscellaneous accident,Fireworks market,Mexico,72.0
+484,2016,Storm,Tropical storm Otto,Nicaragua,10570.0
+485,2017,Earthquake,,Mexico,1200250.0
+486,2017,Storm,Tropical depression'16/Hurricane 'Nate',Guatemala,413.0
+487,2017,Storm,Tropical depression'16/Hurricane 'Nate',Honduras,120.0
+488,2017,Storm,Beatriz,Mexico,600.0
+489,2017,Storm,Hurricane 'Franklin',Mexico,300.0
+490,2017,Storm,Hurricane Katia,Mexico,1110.0
+491,2017,Earthquake,,Mexico,256000.0
+492,2017,Flood,,Honduras,645.0
+493,2017,Storm,Tropical depression'16/Hurricane 'Nate',Panama,12000.0
+494,2017,Flood,,Honduras,46975.0
+495,2017,Storm,Tropical storm 'Lidia',Mexico,1000.0
+496,2017,Landslide,,Guatemala,
+497,2017,Miscellaneous accident,Foyer pour enfants 'Hogar Seguro',Guatemala,
+498,2017,Flood,,Guatemala,10080.0
+499,2017,Flood,,Guatemala,1000.0
+500,2017,Flood,,Guatemala,31319.0
+501,2017,Flood,,Honduras,400.0
+502,2017,Flood,,Mexico,800.0
+503,2017,Transport accident,,Mexico,9.0
+504,2017,Transport accident,,Mexico,31.0
+505,2017,Transport accident,,Mexico,12.0
+506,2017,Transport accident,,Mexico,2.0
+507,2017,Miscellaneous accident,Firework depot,Mexico,22.0
+508,2017,Storm,Tropical depression'16/Hurricane 'Nate',Nicaragua,39200.0
+509,2017,Flood,,Nicaragua,13715.0
+510,2017,Transport accident,,Panama,33.0
+511,2018,Flood,,Guatemala,100.0
+512,2018,Flood,,Honduras,6948.0
+513,2018,Flood,,Nicaragua,13000.0
+514,2018,Storm,Tropical storm 'Vicente',Mexico,
+515,2018,Drought,,Guatemala,1500000.0
+516,2018,Drought,,Honduras,360000.0
+517,2018,Earthquake,,Mexico,3004.0
+518,2018,Flood,,Mexico,120.0
+519,2018,Storm,Hurricane Willa,Mexico,10000.0
+520,2018,Transport accident,Helicopter,Mexico,
+521,2018,Transport accident,,Mexico,
+522,2018,Miscellaneous accident,Fireworks depot,Mexico,
+523,2018,Drought,,Nicaragua,300000.0
+524,2018,Drought,,Panama,
+525,2019,Flood,,Mexico,3000.0
+526,2019,Epidemic,Dengue,Guatemala,6264.0
+527,2019,Transport accident,,Guatemala,20.0
+528,2019,Epidemic,Dengue,Honduras,71216.0
+529,2019,Transport accident,,Honduras,
+530,2019,Transport accident,Bombardier Challenger 601,Mexico,
+531,2019,Transport accident,,Mexico,33.0
+532,2019,Transport accident,,Mexico,30.0
+533,2019,Industrial accident,Oleoduc,Mexico,22.0
+534,2019,Flood,,Mexico,142.0
+535,2019,Epidemic,Dengue,Nicaragua,94513.0
+536,2017,Storm,Tropical depression'16/Hurricane 'Nate',El Salvador,584.0
+537,2018,Flood,,El Salvador,7099.0
+538,2018,Drought,,El Salvador,386610.0
+539,2018,Earthquake,,El Salvador,2499.0
+540,2019,Earthquake,,El Salvador,160.0
+541,2019,Epidemic,Dengue,El Salvador,16573.0
+542,2019,Storm,,Guatemala,15000.0
+543,2019,Storm,,Guatemala,63453.0
+544,2019,Storm,Tropical cyclone 'Lorena',Mexico,200.0
+545,2019,Storm,Tropical storm 'Fernand',Mexico,
+546,2019,Transport accident,,Guatemala,11.0
+547,2019,Storm,Tropical storm 'Narda',Mexico,1000.0
+548,2019,Transport accident,,Mexico,12.0
+549,2019,Flood,,Mexico,500.0
