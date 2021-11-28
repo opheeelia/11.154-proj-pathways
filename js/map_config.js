@@ -1,7 +1,7 @@
 var config = {
   style: "mapbox://styles/warrenww/ckwjkf27a26b414nifa3qsdit",
   accessToken:
-    "pk.eyJ1Ijoid2FycmVud3ciLCJhIjoiY2t1cjBvNTJwNTA0cDMwbWFudXRpcDhlbyJ9.vAzyl1I8gStvNrgmYS9uFg",
+    "pk.eyJ1Ijoid2FycmVud3ciLCJhIjoiY2t1cjBzbXB1M2lsNTJ1cnU0czRwMzFnNyJ9.yj-fZ0fx9dJIEgVLWAO2zA",
   showMarkers: false,
   theme: "dark",
   title: "Policies & Pathways of Immigration",
