@@ -1,0 +1,181 @@
+,Country,Year,Type,Number
+28,Belize                             ,2000,Total,170
+29,Costa Rica                         ,2000,Total,328
+30,El Salvador                        ,2000,Total,4736
+31,Guatemala                          ,2000,Total,4543
+32,Honduras                           ,2000,Total,4768
+33,Mexico                             ,2000,Total,151267
+34,Nicaragua                          ,2000,Total,513
+35,Panama                             ,2000,Total,154
+55,Belize                             ,2001,Total,185
+56,Costa Rica                         ,2001,Total,392
+57,El Salvador                        ,2001,Total,3928
+58,Guatemala                          ,2001,Total,4716
+59,Honduras                           ,2001,Total,4548
+60,Mexico                             ,2001,Total,150762
+61,Nicaragua                          ,2001,Total,526
+62,Panama                             ,2001,Total,157
+82,Belize                             ,2002,Total,178
+83,Costa Rica                         ,2002,Total,376
+84,El Salvador                        ,2002,Total,4066
+85,Guatemala                          ,2002,Total,5396
+86,Honduras                           ,2002,Total,4946
+87,Mexico                             ,2002,Total,122058
+88,Nicaragua                          ,2002,Total,468
+89,Panama                             ,2002,Total,163
+109,Belize                             ,2003,Total,179
+110,Costa Rica                         ,2003,Total,514
+111,El Salvador                        ,2003,Total,5561
+112,Guatemala                          ,2003,Total,7726
+113,Honduras                           ,2003,Total,8182
+114,Mexico                             ,2003,Total,155812
+115,Nicaragua                          ,2003,Total,820
+116,Panama                             ,2003,Total,162
+136,Belize                             ,2004,Total,202
+137,Costa Rica                         ,2004,Total,599
+138,El Salvador                        ,2004,Total,7269
+139,Guatemala                          ,2004,Total,9729
+140,Honduras                           ,2004,Total,8752
+141,Mexico                             ,2004,Total,175865
+142,Nicaragua                          ,2004,Total,947
+143,Panama                             ,2004,Total,188
+163,Belize                             ,2005,Total,219
+164,Costa Rica                         ,2005,Total,676
+165,El Salvador                        ,2005,Total,8305
+166,Guatemala                          ,2005,Total,14522
+167,Honduras                           ,2005,Total,15572
+168,Mexico                             ,2005,Total,169031
+169,Nicaragua                          ,2005,Total,1292
+170,Panama                             ,2005,Total,187
+190,Belize                             ,2006,Total,211
+191,Costa Rica                         ,2006,Total,795
+192,El Salvador                        ,2006,Total,11050
+193,Guatemala                          ,2006,Total,20527
+194,Honduras                           ,2006,Total,27060
+195,Mexico                             ,2006,Total,186726
+196,Nicaragua                          ,2006,Total,2446
+197,Panama                             ,2006,Total,209
+217,Belize                             ,2007,Total,233
+218,Costa Rica                         ,2007,Total,655
+219,El Salvador                        ,2007,Total,20045
+220,Guatemala                          ,2007,Total,25898
+221,Honduras                           ,2007,Total,29737
+222,Mexico                             ,2007,Total,208996
+223,Nicaragua                          ,2007,Total,2307
+224,Panama                             ,2007,Total,185
+244,Belize                             ,2008,Total,218
+245,Costa Rica                         ,2008,Total,687
+246,El Salvador                        ,2008,Total,20031
+247,Guatemala                          ,2008,Total,27594
+248,Honduras                           ,2008,Total,28851
+249,Mexico                             ,2008,Total,246851
+250,Nicaragua                          ,2008,Total,2250
+251,Panama                             ,2008,Total,192
+271,Belize                             ,2009,Total,237
+272,Costa Rica                         ,2009,Total,671
+273,El Salvador                        ,2009,Total,20406
+274,Guatemala                          ,2009,Total,29182
+275,Honduras                           ,2009,Total,26849
+276,Mexico                             ,2009,Total,282666
+277,Nicaragua                          ,2009,Total,2098
+278,Panama                             ,2009,Total,189
+298,Belize                             ,2010,Total,254
+299,Costa Rica                         ,2010,Total,558
+300,El Salvador                        ,2010,Total,20017
+301,Guatemala                          ,2010,Total,29403
+302,Honduras                           ,2010,Total,24652
+303,Mexico                             ,2010,Total,275560
+304,Nicaragua                          ,2010,Total,1868
+305,Panama                             ,2010,Total,190
+325,Belize                             ,2011,Total,221
+326,Costa Rica                         ,2011,Total,415
+327,El Salvador                        ,2011,Total,17945
+328,Guatemala                          ,2011,Total,30871
+329,Honduras                           ,2011,Total,22675
+330,Mexico                             ,2011,Total,287462
+331,Nicaragua                          ,2011,Total,1571
+332,Panama                             ,2011,Total,148
+352,Belize                             ,2012,Total,204
+353,Costa Rica                         ,2012,Total,398
+354,El Salvador                        ,2012,Total,18910
+355,Guatemala                          ,2012,Total,38885
+356,Honduras                           ,2012,Total,31724
+357,Mexico                             ,2012,Total,300496
+358,Nicaragua                          ,2012,Total,1426
+359,Panama                             ,2012,Total,129
+379,Belize                             ,2013,Total,175
+380,Costa Rica                         ,2013,Total,332
+381,El Salvador                        ,2013,Total,21130
+382,Guatemala                          ,2013,Total,47013
+383,Honduras                           ,2013,Total,36635
+384,Mexico                             ,2013,Total,306902
+385,Nicaragua                          ,2013,Total,1339
+386,Panama                             ,2013,Total,122
+406,Belize                             ,2014,Total,136
+407,Costa Rica                         ,2014,Total,286
+408,El Salvador                        ,2014,Total,26671
+409,Guatemala                          ,2014,Total,54405
+410,Honduras                           ,2014,Total,40877
+411,Mexico                             ,2014,Total,265086
+412,Nicaragua                          ,2014,Total,1318
+413,Panama                             ,2014,Total,91
+433,Belize                             ,2015,Total,134
+434,Costa Rica                         ,2015,Total,224
+435,El Salvador                        ,2015,Total,21899
+436,Guatemala                          ,2015,Total,33379
+437,Honduras                           ,2015,Total,20298
+438,Mexico                             ,2015,Total,233222
+439,Nicaragua                          ,2015,Total,930
+440,Panama                             ,2015,Total,102
+460,Belize                             ,2016,Total,146
+461,Costa Rica                         ,2016,Total,253
+462,El Salvador                        ,2016,Total,20264
+463,Guatemala                          ,2016,Total,33886
+464,Honduras                           ,2016,Total,22015
+465,Mexico                             ,2016,Total,236205
+466,Nicaragua                          ,2016,Total,882
+467,Panama                             ,2016,Total,83
+487,Belize                             ,2017,Total,123
+488,Costa Rica                         ,2017,Total,256
+489,El Salvador                        ,2017,Total,18448
+490,Guatemala                          ,2017,Total,33049
+491,Honduras                           ,2017,Total,22163
+492,Mexico                             ,2017,Total,184106
+493,Nicaragua                          ,2017,Total,906
+494,Panama                             ,2017,Total,94
+514,Belize                             ,2018,Total,133
+515,Costa Rica                         ,2018,Total,319
+516,El Salvador                        ,2018,Total,14877
+517,Guatemala                          ,2018,Total,49135
+518,Honduras                           ,2018,Total,28451
+519,Mexico                             ,2018,Total,209334
+520,Nicaragua                          ,2018,Total,964
+521,Panama                             ,2018,Total,91
+541,Belize                             ,2019,Total,109
+542,Costa Rica                         ,2019,Total,356
+543,El Salvador                        ,2019,Total,18190
+544,Guatemala                          ,2019,Total,53180
+545,Honduras                           ,2019,Total,40751
+546,Mexico                             ,2019,Total,215205
+547,Nicaragua                          ,2019,Total,2268
+548,Panama                             ,2019,Total,102
+0,Total,2000,Total,166479
+1,Total,2001,Total,165214
+2,Total,2002,Total,137651
+3,Total,2003,Total,178956
+4,Total,2004,Total,203551
+5,Total,2005,Total,209804
+6,Total,2006,Total,249024
+7,Total,2007,Total,288056
+8,Total,2008,Total,326674
+9,Total,2009,Total,362298
+10,Total,2010,Total,352502
+11,Total,2011,Total,361308
+12,Total,2012,Total,392172
+13,Total,2013,Total,413648
+14,Total,2014,Total,388870
+15,Total,2015,Total,310188
+16,Total,2016,Total,313734
+17,Total,2017,Total,259145
+18,Total,2018,Total,303304
+19,Total,2019,Total,330161
