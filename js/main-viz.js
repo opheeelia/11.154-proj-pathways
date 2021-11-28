@@ -1,15 +1,14 @@
+const width = 500;
+const height = 300;
+const margin = { bottom: 100, top: 100, left: 100, right: 100 };
 
 function plotBarChart(remData, apprData) {
-    const width = 500;
-    const height = 300;
-
     const gap = 2;
     const percentageGap = 20;
     const barWidth = (width - (remData.length * gap)) / remData.length;
-    const margin = { bottom: 100, top: 100, left: 100, right: 100 };
 
     const svg = d3.select("#viz-enf")
-        .append("svg")
+        .select("svg")
         .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
 
     // define y linear scale and axis
@@ -59,8 +58,8 @@ function plotBarChart(remData, apprData) {
                 .style("left", event.pageX + "px")
                 .style("top", event.pageY + "px")
                 .select("#value")
-                .html(`<p> ${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended <br>
-                     ${remData.find(x => x.Year == d.Year).Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} removed </p>`);
+                .html(`${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended <br>
+                     ${remData.find(x => x.Year == d.Year).Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} removed`);
 
             d3.select("#tooltip")
                 .classed("hidden", false);
@@ -103,13 +102,59 @@ function plotBarChart(remData, apprData) {
         .text(d => d.Year);
 };
 
+function plotPoliticOverlay() {
+    const svg = d3.select("#viz-enf")
+        .append("svg")
+        .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
+
+    const pTerms = [{ president: "Clinton", start: 2000, end: 2001 },
+    { president: "Bush", start: 2001, end: 2009 },
+    { president: "Obama", start: 2009, end: 2017 },
+    { president: "Trump", start: 2017, end: 2019 }
+    ];
+
+    const xValues = Array.from({length: 19}, (_, i) => i + 2000);
+    const x = d3.scaleLinear()
+        .domain([d3.min(xValues), d3.max(xValues)])
+        .range([0, width]);
+
+    svg.append("g")
+        .attr("class", "pterm")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+        .selectAll("rect")
+        .data(pTerms)
+        .enter()
+        .append("rect")
+        .attr("x", d => x(d.start-0.5))
+        .attr("y", 0)
+        .attr("width", d =>  x(d.end - 0.5) - x(d.start - 0.5))
+        .attr("height", height)
+        .attr("fill", (d, i) => i % 2 == 0 ? "#999999" : "#000000")
+        .attr("opacity", 0.1)
+        .on("mouseover", function (event, d) {
+            // d3.select("#tooltip")
+            //     .style("left", event.pageX + "px")
+            //     .style("top", event.pageY + "px")
+            //     .select("#value")
+            //     .html(`${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended <br>
+            //          ${remData.find(x => x.Year == d.Year).Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} removed`);
+
+            // d3.select("#tooltip")
+            //     .classed("hidden", false);
+        })
+        .on("mouseout", function () {
+            // d3.select("#tooltip")
+            //     .classed("hidden", true);
+        });
+
+}
+
 // load csv data
 d3.csv("./data/removed.csv", d3.autoType)
     .then(function (remData) {
         d3.csv("./data/apprehended.csv", d3.autoType)
             .then(function (apprData) {
-                console.log(remData)
-                console.log(apprData)
+                plotPoliticOverlay();
                 plotBarChart(remData.filter(d => d.Country == "Total"), apprData.filter(d => d.Country == "Total"));
             })
     })

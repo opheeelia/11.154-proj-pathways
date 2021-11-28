@@ -153,5 +153,6 @@ nav{
 	padding: 5px;
 	background-color: white;
 	border: solid gray 1px;
+	border-radius: 5px;
 	Z-index:10;
 }
