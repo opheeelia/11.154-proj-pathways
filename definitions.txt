@@ -1,0 +1,19 @@
+### Apprehension
+
+This is when U.S. Immigration and Customs Enforcement (ICE) arrests a removable noncitizen. Each apprehension of the same noncitizen in a fiscal year is counted separately.
+
+### Removal
+
+The expulsion of an alien from the United States. This expulsion may be based on grounds of inadmissibility or deportability.
+
+#### Inadmissibility
+
+Not being allowed to lawfully enter the United States or obtain a visa abroad based on acts or conduct that is listed as an inadmissibility ground in section 212 of the Immigration and Nationality Act.
+
+#### Deportable noncitizen
+
+This is a noncitizen who has been admitted into the United States subject to any grounds of removal specified in the Immigration and Nationality Act. This includes any noncitizen illegally in the United States, regardless of whether they entered the country by fraud or misrepresentation or entered legally but subsequently violated the terms of their nonimmigrant classification or status.
+
+### Inadmissible
+
+This is an noncitizen seeking admission at a port of entry who does not meet the criteria in the INA for admission. The noncitizen may be placed in removal proceedings or, under certain circumstances, allowed to withdraw their application for admission.
