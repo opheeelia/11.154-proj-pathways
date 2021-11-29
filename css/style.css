@@ -155,7 +155,6 @@ nav{
 }
 
 .tabcontent{
-	background-color: #f1d592;
 }
 
 
@@ -165,7 +164,11 @@ nav{
 	width: 100vw;
 	position: fixed;
 	opacity: 1;
+<<<<<<< HEAD
 	z-index: -1;
+=======
+	z-index: -5;
+>>>>>>> 39d58d32808dd99a254e69e0ae9aacce07885786
 }
 #header {
 	margin: auto;
