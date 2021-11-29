@@ -50,7 +50,7 @@ var config = {
       image: "",
       description:
         'The ultimate goal of immigrants coming into the United States is obtaining the lawful permanent residency(LPR), also known as "green card". The LPR status allows \
-        the non-citizens to legally live permanently within the U.S. Thus, the number of people gaining LPR status can reflect the trends of immigrations into the U.S.',
+         non-citizens to legally live permanently within the U.S. Thus, the number of people gaining LPR status can reflect the trends of immigrations into the U.S.',
       location: {
         center: [-98.46575, 41.08284],
         zoom: 3.77,
