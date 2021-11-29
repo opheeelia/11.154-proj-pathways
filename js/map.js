@@ -86,6 +86,8 @@ config.chapters.forEach((record, idx) => {
   }
 
   container.setAttribute("id", record.id);
+//  set class for description
+  container.classList.add("description")
   container.classList.add("step");
   if (idx === 0) {
     container.classList.add("active");
