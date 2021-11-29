@@ -11,7 +11,7 @@ var config = {
   chapters: [
     {
       id: "start",
-      alignment: "right",
+      alignment: "center",
       title: "Our motivation",
       image: "",
       description:
@@ -37,7 +37,7 @@ var config = {
     },
     {
       id: "central-am",
-      alignment: "right",
+      alignment: "center",
       title: "Bike Lanes",
       image: "",
       description:
