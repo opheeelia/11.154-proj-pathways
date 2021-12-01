@@ -10,7 +10,7 @@
 //     // use data in functions here
 // })
 
-document.getElementById('viz-enf').style.display = "none";
+document.getElementById('enf-viz-wrapper').style.display = "none";
 
 function openTab(evt, divName) {
     // Declare all variables
