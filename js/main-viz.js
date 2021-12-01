@@ -140,16 +140,16 @@ function plotBarChart(remData, apprData) {
         .attr("class", "x label")
         .attr("text-anchor", "end")
         .text("Year")
-        .attr("transform", `translate(${margin.left + (width/2)}, ${height + margin.top + (margin.bottom / 2)})`);
+        .attr("transform", `translate(${margin.left + (width / 2)}, ${height + margin.top + (margin.bottom / 2)})`);
 
     svg.append("text")
         .attr("class", "y label")
         .attr("text-anchor", "end")
         .text("People")
-        .attr("transform", `translate(${margin.left/3}, ${margin.top + (height/2)}) rotate(-90)`);
+        .attr("transform", `translate(${margin.left / 3}, ${margin.top + (height / 2)}) rotate(-90)`);
 }
 
-function plotPoliticOverlay() {
+function plotPoliticOverlay(data) {
     const svg = d3.select("#viz-enf")
         .select("svg")
         .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
@@ -178,6 +178,33 @@ function plotPoliticOverlay() {
         .attr("fill", (d, i) => i % 2 == 0 ? "#999999" : "#000000")
         .attr("opacity", 0.1);
 
+    // plot policies
+    svg.append("g")
+        .attr("class", "policies")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+        .selectAll("rect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("x", d => x(d.Year + (1/12) * d.Month))
+        .attr("y", 0)
+        .attr("width", 2)
+        .attr("height", height)
+        .attr("fill", "#b60028")
+        .on("mouseover", function (event, d) {
+            d3.select("#tooltip")
+                .style("left", event.pageX + "px")
+                .style("top", event.pageY + "px")
+                .select("#value")
+                .html(`<b>${d.Name}</b> <p>${d.Details}</p>`);
+
+            d3.select("#tooltip")
+                .classed("hidden", false);
+        })
+        .on("mouseout", function () {
+            d3.select("#tooltip")
+                .classed("hidden", true);
+        });
 }
 
 // function plotContext(contextData) {
@@ -225,7 +252,10 @@ const svg = d3.select("#viz-enf")
     .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.bottom + margin.top]);
 
 // load csv data
-plotPoliticOverlay();
+d3.csv("./data/policies.csv", d3.autoType)
+    .then(function (data) {
+        plotPoliticOverlay(data.filter(d => d.Year >= 2000));
+    });
 
 // d3.csv("./data/context.csv", d3.autoType)
 //     .then(function (contextData) {
