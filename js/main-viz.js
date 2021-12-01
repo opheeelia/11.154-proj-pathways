@@ -24,35 +24,79 @@ function plotBarChart(remData, apprData) {
         .attr("transform", `translate(${margin.left}, ${margin.top})`)
         .call(yAxis);
 
-    // rectangle bars for removed
-    svg.append("g")
-        .attr("class", "bars")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`)
-        .selectAll("rect")
-        .data(remData)
-        .enter()
-        .append("rect")
-        .attr("x", (d, i) => i * (barWidth + gap))
-        .attr("y", (d) => y(d.Number))
-        .attr("width", barWidth)
-        .attr("height", d => height - y(d.Number))
-        .attr("fill", "#003869")
-        .attr("opacity", 0.5);
+    // define y linear scale and axis
+    const x = d3.scaleLinear()
+        .domain([2000, 2019])
+        .range([0, width]);
 
-    // rectangle bars for apprehended
+    const xAxis = d3.axisBottom(x).ticks(8).tickFormat(d3.format("d"));
+
     svg.append("g")
-        .attr("class", "bars")
+        .attr("class", "axis x")
+        .attr("transform", `translate(${margin.left}, ${margin.top + height})`)
+        .call(xAxis);
+
+    // Add the area for apprehended
+    svg.append("path")
+        .datum(apprData)
+        .attr("fill", "#003869")
+        .attr("fill-opacity", .3)
+        .attr("stroke", "none")
+        .attr("d", d3.area()
+            .x(d => x(d.Year))
+            .y0(height)
+            .y1(d => y(d.Number))
+        )
         .attr("transform", `translate(${margin.left}, ${margin.top})`)
-        .selectAll("rect")
+
+    // Add the line for appr
+    svg.append("path")
+        .datum(apprData)
+        .attr("fill", "none")
+        .attr("stroke", "#003869")
+        .attr("stroke-width", 1)
+        .attr("d", d3.line()
+            .x(d => x(d.Year))
+            .y(d => y(d.Number))
+        )
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+
+    // Add the area for apprehended
+    svg.append("path")
+        .datum(remData)
+        .attr("fill", "#003869")
+        .attr("fill-opacity", .3)
+        .attr("stroke", "none")
+        .attr("d", d3.area()
+            .x(d => x(d.Year))
+            .y0(height)
+            .y1(d => y(d.Number))
+        )
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+
+    // Add the line for appr
+    svg.append("path")
+        .datum(remData)
+        .attr("fill", "none")
+        .attr("stroke", "#003869")
+        .attr("stroke-width", 1)
+        .attr("d", d3.line()
+            .x(d => x(d.Year))
+            .y(d => y(d.Number))
+        )
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+
+    // Add the line
+    svg.selectAll("myCircles")
         .data(apprData)
         .enter()
-        .append("rect")
-        .attr("x", (d, i) => i * (barWidth + gap))
-        .attr("y", (d) => y(d.Number))
-        .attr("width", barWidth)
-        .attr("height", d => height - y(d.Number))
+        .append("circle")
         .attr("fill", "#003869")
-        .attr("opacity", 0.5)
+        .attr("stroke", "none")
+        .attr("cx", d => x(d.Year))
+        .attr("cy", d => y(d.Number))
+        .attr("r", 3)
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
         .on("mouseover", function (event, d) {
             d3.select("#tooltip")
                 .style("left", event.pageX + "px")
@@ -69,7 +113,7 @@ function plotBarChart(remData, apprData) {
                 .classed("hidden", true);
         });
 
-    // text percenntage
+    // text percentage
     svg.append("g")
         .attr("class", "labels")
         .attr("transform", `translate(${margin.left}, ${margin.top})`)
@@ -77,7 +121,7 @@ function plotBarChart(remData, apprData) {
         .data(apprData)
         .enter()
         .append("text")
-        .attr("x", (d, i) => i * (barWidth + gap) + barWidth / 2)
+        .attr("x", d => x(d.Year))
         .attr("y", (d) => y(d.Number) - percentageGap)
         .attr("dy", "1em")
         .attr("text-anchor", "middle")
@@ -85,27 +129,24 @@ function plotBarChart(remData, apprData) {
         .attr("fill", "black")
         .text((d, i) => `${parseInt((remData[i].Number / d.Number) * 100)}%`);
 
-    // text on x-axis
-    svg.append("g")
-        .attr("class", "labels")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`)
-        .selectAll("text")
-        .data(remData)
-        .enter()
-        .append("text")
-        .attr("x", (d, i) => i * (barWidth + gap) + barWidth / 2)
-        .attr("y", height + gap)
-        .attr("dy", "1em")
-        .attr("text-anchor", "middle")
-        .attr("font-size", "0.6em")
-        .attr("fill", "black")
-        .text(d => d.Year);
-
     // title
     svg.append("text")
         .attr("class", "title")
         .text("Number of persons apprehended and removed 2000-2019")
         .attr("transform", `translate(${margin.left}, ${margin.top / 2})`);
+
+    // axes label
+    svg.append("text")
+        .attr("class", "x label")
+        .attr("text-anchor", "end")
+        .text("Year")
+        .attr("transform", `translate(${margin.left + (width/2)}, ${height + margin.top + (margin.bottom / 2)})`);
+
+    svg.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "end")
+        .text("People")
+        .attr("transform", `translate(${margin.left/3}, ${margin.top + (height/2)}) rotate(-90)`);
 }
 
 function plotPoliticOverlay() {
@@ -119,9 +160,8 @@ function plotPoliticOverlay() {
     { president: "Trump", start: 2017, end: 2019 }
     ];
 
-    const xValues = Array.from({ length: 19 }, (_, i) => i + 2000);
     const x = d3.scaleLinear()
-        .domain([d3.min(xValues), d3.max(xValues)])
+        .domain([2000, 2019])
         .range([0, width]);
 
     svg.append("g")
@@ -131,27 +171,12 @@ function plotPoliticOverlay() {
         .data(pTerms)
         .enter()
         .append("rect")
-        .attr("x", d => x(d.start - 0.5))
+        .attr("x", d => x(d.start))
         .attr("y", 0)
-        .attr("width", d => x(d.end - 0.5) - x(d.start - 0.5))
+        .attr("width", d => x(d.end) - x(d.start))
         .attr("height", height)
         .attr("fill", (d, i) => i % 2 == 0 ? "#999999" : "#000000")
-        .attr("opacity", 0.1)
-        .on("mouseover", function (event, d) {
-            // d3.select("#tooltip")
-            //     .style("left", event.pageX + "px")
-            //     .style("top", event.pageY + "px")
-            //     .select("#value")
-            //     .html(`${d.Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} apprehended <br>
-            //          ${remData.find(x => x.Year == d.Year).Number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} removed`);
-
-            // d3.select("#tooltip")
-            //     .classed("hidden", false);
-        })
-        .on("mouseout", function () {
-            // d3.select("#tooltip")
-            //     .classed("hidden", true);
-        });
+        .attr("opacity", 0.1);
 
 }
 

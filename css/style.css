@@ -31,6 +31,11 @@ g text{
 	font-family: 'Merriweather', serif !important;
 }
 
+svg text.label{
+	font-size: 12px;
+	font-weight: 100;
+}
+
 img {
 	width: 5em;
 }
@@ -112,7 +117,7 @@ nav{
 }
 
 .scroll-1, .scroll-2, .scroll-3{
-	margin: 10em 1em;
+	margin: 20em 1em;
 	opacity: 0;
 	transition: opacity 0.8s;
 	-webkit-transition: opacity 0.8s;
