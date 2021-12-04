@@ -1,6 +1,8 @@
 :root{
 	--base: #f2e9d3;
-	--text: #3e442b;
+	--box: #444;
+	--text: #fafafa;
+	/* --text: #3e442b; */
 	--blue: #003869;
 	--red: #b60028;
 	--grey: #999999;
@@ -25,7 +27,7 @@ h1, h2, h3, h4, h5{
 }
 
 p {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 g text{
@@ -76,7 +78,7 @@ a:hover{
 }
 
 #bjump{
-	background-color: var(--base);
+	background-color: var(--box);
 }
 
 nav{
@@ -197,6 +199,12 @@ nav{
 #features {
 	padding-top: 10vh;
 	padding-bottom: 10vh;
+}
+
+.box {
+	padding: 2vh 2vw;
+	color: var(--text);
+	background-color: var(--box);
 }
 
 .centered {

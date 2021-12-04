@@ -11,7 +11,7 @@ var config = {
   chapters: [
     {
       id: "passage1",
-      alignment: "center",
+      alignment: "central",
       title: "Our motivation",
       image: "",
       description:
