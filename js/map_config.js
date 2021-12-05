@@ -129,5 +129,39 @@ var config = {
         },
       ],
     },
+    {
+      id: "passage1",
+      alignment: "central",
+      title: "Why you should care",
+      image: "",
+      description:
+        "Over the years, the U.S. immigration landscape have undergone many significant and frequent changes. Policy changes and major events pose many unexpected hurdles for soon-to-be migrants and migrants already in the country, so it is particularly important to identify what causes higher proportions of irregular immigration",
+      location: {
+        center: { lon: -100.05436, lat: 29.55967 },
+        zoom: 3.32,
+        pitch: 0.0,
+        bearing: 0.0,
+      },
+      onChapterEnter: [
+        {
+          layer: "USbound",
+          opacity: 0.5,
+        },
+        {
+          layer: "CAbound",
+          opacity: 0.5,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "USbound",
+          opacity: 0.5,
+        },
+        {
+          layer: "CAbound",
+          opacity: 0.5,
+        },
+      ],
+    },
   ],
 };

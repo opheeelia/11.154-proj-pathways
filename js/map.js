@@ -223,6 +223,7 @@ map.on("load", function () {
 window.addEventListener("resize", scroller.resize);
 
 $(window).scroll(function () {
+  var final_opacity = 0.05
   var hT = $("#story").offset().top,
     hH = $("#story").outerHeight(),
     wH = $(window).height(),
@@ -232,8 +233,8 @@ $(window).scroll(function () {
     document.getElementById("map").style.opacity = 1;
   } else if (wS < hT + hH - wH + buffer) {
     document.getElementById("map").style.opacity =
-      1 - (wS - (hT + hH - wH)) / buffer;
+      (1 - (wS - (hT + hH - wH)) / buffer)*(1-final_opacity)+final_opacity;
   } else if (wS > hT + hH - wH + buffer) {
-    document.getElementById("map").style.opacity = 0;
+    document.getElementById("map").style.opacity = final_opacity;
   }
 });
