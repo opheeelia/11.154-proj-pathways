@@ -47,7 +47,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
   triggerHook: 0.25,
   triggerElement: "#viz-1",
-  duration: $("#text-1").height(),
+  duration: $(".scroll-1").height()/4,
 })
   .setPin("#viz-1")
   .addTo(controller);
@@ -82,7 +82,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
   triggerHook: 0.25,
   triggerElement: "#viz-3",
-  duration: $(".scroll-3").height() / 2,
+  duration: $(".scroll-3").height()/4,
 })
   .setPin("#viz-3")
   .addTo(controller);
