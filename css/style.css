@@ -74,7 +74,7 @@ a{
 }
 
 a:hover{
-	color: var(--red);
+	color: lightblue;
 }
 
 #bjump{
