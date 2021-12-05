@@ -36,27 +36,58 @@ function openTab(evt, divName) {
 var controller = new ScrollMagic.Controller();
     
 new ScrollMagic.Scene({
-                        triggerHook: 0.8,
-                        triggerElement: ".scroll-1",
-                        duration: "80%"
-                    })
-    .setClassToggle(".scroll-1", "active") 
-    .addTo(controller);
+  triggerHook: 1,
+  triggerElement: "#viz-1",
+  duration: 0,
+})
+  .setClassToggle("#viz-1", "active")
+  .addTo(controller);
+
 
 new ScrollMagic.Scene({
-                        triggerHook: 0.8,
-                        triggerElement: ".scroll-2",
-                        duration: "80%"
+  triggerHook: 0.25,
+  triggerElement: "#viz-1",
+  duration: $(".scroll-1").height()/2,
+})
+  .setPin("#viz-1")
+  .addTo(controller);
+
+
+new ScrollMagic.Scene({
+  triggerHook: 1,
+  triggerElement: "#viz-2",
+  duration: 0,
+})
+  .setClassToggle("#viz-2", "active")
+  .addTo(controller);
+
+
+new ScrollMagic.Scene({
+  triggerHook: 0.25,
+  triggerElement: "#viz-2",
+  duration: $(".scroll-2").height()/2,
+})
+  .setPin("#viz-2")
+  .addTo(controller);
+
+
+new ScrollMagic.Scene({
+                        triggerHook: 1,
+                        triggerElement: "#viz-3",
+                        duration: 0
                     })
-    .setClassToggle(".scroll-2", "active") 
+    .setClassToggle("#viz-3", "active") 
     .addTo(controller);
                 
 new ScrollMagic.Scene({
-                        triggerHook: 0.8,
-                        triggerElement: ".scroll-3",
-                        duration: "80%"
-                    })
-    .setClassToggle(".scroll-3", "active") 
-    .addTo(controller);
+  triggerHook: 0.25,
+  triggerElement: "#viz-3",
+  duration: $(".scroll-3").height() / 2,
+})
+  .setPin("#viz-3")
+  .addTo(controller);
+
 
 // 2. CODE EXECUTED SECOND
+
+
