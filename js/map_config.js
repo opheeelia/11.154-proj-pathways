@@ -143,7 +143,7 @@ var config = {
       title: "Why Central America?",
       image: "",
       description:
-        "Central American countries are the neighbors of the U.S., and the U.S. is the main destination for Central American migrants, with over 90% of them residing in the U.S. as of 2018. Furthermore, immigration policies of our government have been frequently driven by ",
+        "Central American countries are the neighbors of the U.S., and the U.S. is the main destination for Central American migrants, with over 90% of them residing in the U.S. as of 2018. As a result, immigration policies of our government have been frequently driven by these countries.",
       location: {
         center: { lon: -101.52442, lat: 20.20557 },
         zoom: 4.27,
