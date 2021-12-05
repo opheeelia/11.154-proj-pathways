@@ -47,7 +47,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
   triggerHook: 0.25,
   triggerElement: "#viz-1",
-  duration: $(".scroll-1").height()/2,
+  duration: $("#text-1").height(),
 })
   .setPin("#viz-1")
   .addTo(controller);
