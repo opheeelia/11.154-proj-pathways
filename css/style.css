@@ -290,3 +290,7 @@ nav{
 	border-radius: 5px;
 	Z-index:10;
 }
+
+.dark-text{
+	color: var(--box);
+}
