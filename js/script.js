@@ -34,7 +34,8 @@ function openTab(evt, divName) {
   }
 
 var controller = new ScrollMagic.Controller();
-    
+
+
 new ScrollMagic.Scene({
   triggerHook: 1,
   triggerElement: "#viz-1",
@@ -43,14 +44,14 @@ new ScrollMagic.Scene({
   .setClassToggle("#viz-1", "active")
   .addTo(controller);
 
-
+/*
 new ScrollMagic.Scene({
   triggerHook: 0.25,
   triggerElement: "#viz-1",
   duration: $(".scroll-1").height()/4,
 })
   .setPin("#viz-1")
-  .addTo(controller);
+  .addTo(controller); */
 
 
 new ScrollMagic.Scene({
